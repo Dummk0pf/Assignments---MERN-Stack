@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <p class="login-message">Log in with</p>
+
+        <div class="accounts">
+            <div class="account">
+                <img src="res/google.png" alt="" srcset="" class="icon">
+                <p>Google</p>
+            </div>
+            <div class="account">
+                <img src="res/meta.png" alt="" srcset="" class="icon">
+                <p>Facebook</p>
+            </div>
+        </div>
+
+        <p>or</p>
+
+        <div class="user-details">
+            <div class="user-form">
+                <form action="" method="get">
+                    <p class="label"><label for="email">Email</label></p>
+                    <input type="email" name="email" id="email" autocomplete="off" placeholder="Enter your email" required>
+    
+                    <p class="label"><label for="password">Password</label></p>
+                    <input type="password" name="password" id="password" minlength="8" autocomplete="off" placeholder="Entert your password" required>
+                    
+                    <input type="submit" value="Log in" class="login-button">
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

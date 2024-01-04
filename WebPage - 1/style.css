@@ -1,0 +1,112 @@
+body{
+    background-image: url(res/bbburst\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family:monospace;
+    font-size: 1.1rem;
+}
+
+
+.login-container{
+    width: 25rem;
+    height: 30rem;
+    box-sizing: border-box;
+    
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    
+    
+    background-color: rgba(197, 193, 193, 0.463);
+    border-radius: 1rem;
+
+    text-align: center;
+}
+
+.login-message{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.accounts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.account{
+    width:9rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 0.5rem;
+
+    border-radius: 1rem;
+}
+
+.account > p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+
+    font-size: 1.2rem;
+}
+
+.icon{
+    width: 2rem;
+    padding: 0.5rem;
+}
+
+.user-details{
+    width: 100%;
+    margin-top: 2rem;
+    text-align: left;
+
+}
+
+.user-form{
+    width: min-content;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.label{
+    width: 20rem;
+    margin: 0.5rem;
+}
+
+#email, #password{
+    width: 20rem;
+    padding: 0.7rem;
+    
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.login-button{
+    
+    width: 21.2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    
+    font-size: 1.1rem;
+    
+    border: none;
+    border-radius: 1rem;
+    
+}
+
+.account:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    background-color: rgba(242, 242, 242, 0.927);
+}
+
+.login-button:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    background-color: rgb(236, 236, 236);
+}
